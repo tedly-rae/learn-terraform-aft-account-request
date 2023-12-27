@@ -14,8 +14,8 @@ module "sandbox" {
     "Learn Tutorial" = "AFT"
     "Owner" = "tientan912@gmail.com"
     "Division" = "IT"
-    "CostCenter" = "4988"
-    "Project" = "1126"
+    "CostCenter" = "5200"
+    "Project" = "1739"
   }
 
   change_management_parameters = {
@@ -45,9 +45,9 @@ module "sandbox02" {
   account_tags = {
     "Learn Tutorial" = "AFT"
     "Owner" = "tientan912@gmail.com"
-    "Division" = "IT"
-    "CostCenter" = "4988"
-    "Project" = "1126"
+    "Division" = "MKT"
+    "CostCenter" = "4710"
+    "Project" = "3101"
   }
 
   change_management_parameters = {
