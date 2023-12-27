@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "tientan912+sandbox@gmail.com"
-    AccountName               = "sandbox-aft"
+    AccountName               = "sandbox-account-01"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "tientan912+sandbox@gmail.com"
     SSOUserFirstName          = "Sandbox"
@@ -12,6 +12,10 @@ module "sandbox" {
 
   account_tags = {
     "Learn Tutorial" = "AFT"
+    "Owner" = "tientan912@gmail.com"
+    "Division" = "IT"
+    "CostCenter" = "4988"
+    "Project" = "1126"
   }
 
   change_management_parameters = {
